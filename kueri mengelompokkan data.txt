@@ -1,0 +1,227 @@
+
+update news_2 set rubrik2 = "POLITIK" WHERE rubrik in (
+"Pilpres",
+"Pemilihan Umum",
+"Politik",
+"Pilkada",
+"Nasional",
+"Legislatif",
+"Istana",
+"Parpol",
+"KPU",
+"Bawaslu",
+"Gubernur",
+"DPR",
+"Pemerintah"
+);
+
+update news_2 set rubrik2 = "EKONOMI DAN BISNIS" WHERE rubrik in (
+"Bisnis",
+"Hukum",
+"Industri",
+"Investasi",
+"Ekonomi",
+"Pasar",
+"Properti",
+"UMKM",
+"Komersial",
+"Pajak",
+"Bitcoin",
+"Blockchain"
+);
+
+update news_2 set rubrik2 = "OLAHRAGA" WHERE rubrik in (
+"Olahraga",
+"Sepak Bola",
+"Sport",
+"All Sport",
+"Liga Indonesia",
+"Bulutangkis",
+"Moto GP",
+"Basket",
+"Liga Inggris",
+"Liga Spanyol",
+"Liga Italia",
+"Tenis",
+"Liga Jerman",
+"Formula 1"
+);
+
+update news_2 set rubrik2 = "TEKNOLOGI DAN INOVASI" WHERE rubrik in (
+"Smart Techno",
+"Produk",
+"Motor",
+"Gadget",
+"Internet",
+"Komputer",
+"Teknologi",
+"Modifikasi"
+);
+
+update news_2 set rubrik2 = "SOSIAL DAN BUDAYA" WHERE rubrik in (
+"Humaniora",
+"Sosial",
+"Komunitas",
+"Berita Ramadan",
+"Hikmah Ramadan",
+"Amalan Ramadan",
+"Tips Ramadan",
+"Ramadan",
+"Kesehatan",
+"Food",
+"Kuliner",
+"Travel",
+"Otomotif",
+"Lifestyle",
+"Entertainment",
+"Film",
+"Musik",
+"Seleb",
+"Gosip",
+"Features"
+);
+
+update news_2 set rubrik2 = "KRIMINAL" WHERE rubrik in (
+"Kriminal"
+);
+
+update news_2 set rubrik2 = "PENDIDIKAN" WHERE rubrik in (
+"Pendidikan"
+);
+
+--Politik dan Pemerintahan:
+--Pilpres
+--Pemilihan Umum
+--Politik
+--Pilkada
+--Nasional
+--Legislatif
+--Istana
+--Parpol
+--KPU
+--Bawaslu
+--Daerah (dapat dipecah lebih detail jika perlu)
+--Gubernur
+--DPR
+--Pemerintah
+
+--Berita Daerah dan Regional:
+--Jatim Terkini
+--Jabar Terkini
+--Jateng Terkini
+--Bali Terkini
+--Jogja Terkini
+--Sumut Terkini
+--Riau
+--Banten Terkini
+--Lampung Terkini
+--Sumsel
+--Papua Terkini
+--Sumbar Terkini
+--Aceh
+--Kaltim Terkini
+--Bengkulu
+--Kep. Riau
+--Maluku
+--Sulsel
+--Kalteng
+--Kalbar
+--Sulteng
+--Kalsel
+--Kaltara
+--Jambi
+--Sulut
+--NTT
+--Maluku Utara
+--Sulbar
+--Jakarta Terkini
+
+--Ekonomi dan Bisnis:
+--Bisnis
+--Hukum
+--Industri
+--Investasi
+--Ekonomi
+--Pasar
+--Properti
+--UMKM
+--Komersial
+--Pajak
+--Bitcoin
+--Blockchain
+
+--Olahraga:
+--Olahraga
+--Sepak Bola
+--Sport
+--All Sport
+--Liga Indonesia
+--Bulutangkis
+--Moto GP
+--Basket
+--Liga Inggris
+--Liga Spanyol
+--Liga Italia
+--Tenis
+--Liga Jerman
+--Formula 1
+
+--Teknologi dan Inovasi:
+--Smart Techno
+--Produk
+--Motor
+--Gadget
+--Internet
+--Komputer
+--Teknologi
+--Modifikasi
+
+--Sosial dan Budaya:
+--Humaniora
+--Sosial
+--Komunitas
+--Berita Ramadan
+--Hikmah Ramadan
+--Amalan Ramadan
+--Tips Ramadan
+--Ramadan
+--Kesehatan
+--Food
+--Kuliner
+--Travel
+--Otomotif
+--Lifestyle
+--Entertainment
+--Film
+--Musik
+--Seleb
+--Gosip
+--Features
+
+--Internasional dan Global:
+--Internasional
+--Asia Oceania
+--Timur Tengah
+--Eropa
+--Amerika
+--Afrika
+--Global
+
+--Lain-lain:
+--Kriminal
+--Militeriana
+--Syariah
+--Pendidikan
+--Lingkungan
+--Dahlan Iskan
+--Tokoh
+--Opini
+--Event
+--Hobi
+--Perempuan
+--Keluarga
+--Komunikasi
+--Siaran Pers
+--Advetorial
+--Akomodasi
+--Tips
